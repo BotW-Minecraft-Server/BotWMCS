@@ -1,0 +1,553 @@
+
+[   
+
+    // BotWMCS Logic Client Synchronize Mod check list
+    // Author: Sam_Chai
+    // Link: https://github.com/BotW-Minecraft-Server/BotWMCS
+    // Remote OSS: http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com
+    // Use PGP encryption
+    // More information please see README.md in our GitHub page.
+
+
+    {
+        "name": "[Client][HUD]InventoryHud_[1.16.2-1.16.5].forge-3.3.0.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5BHUD%5DInventoryHud_%5B1.16.2-1.16.5%5D.forge-3.3.0.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5BHUD%5DInventoryHud_%5B1.16.2-1.16.5%5D.forge-3.3.0.jar.sig"
+    },
+    {
+        "name": "[Client][JEI掉落查看]JustEnoughResources-1.16.3-0.12.0.100.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5BJEI%E6%8E%89%E8%90%BD%E6%9F%A5%E7%9C%8B%5DJustEnoughResources-1.16.3-0.12.0.100.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5BJEI%E6%8E%89%E8%90%BD%E6%9F%A5%E7%9C%8B%5DJustEnoughResources-1.16.3-0.12.0.100.jar.sig"
+    },
+    {
+        "name": "[Client][JEI核心]jei-1.16.5-7.7.1.110.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5BJEI%E6%A0%B8%E5%BF%83%5Djei-1.16.5-7.7.1.110.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5BJEI%E6%A0%B8%E5%BF%83%5Djei-1.16.5-7.7.1.110.jar.sig"
+    },
+    {
+        "name": "[Client][JEI拓展]jeiintegration_1.16.5-7.0.1.15.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5BJEI%E6%8B%93%E5%B1%95%5Djeiintegration_1.16.5-7.0.1.15.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5BJEI%E6%8B%93%E5%B1%95%5Djeiintegration_1.16.5-7.0.1.15.jar.sig"
+    },
+    {
+        "name": "[Client][快捷操作]MouseTweaks-2.14-mc1.16.2.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5B%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C%5DMouseTweaks-2.14-mc1.16.2.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5B%E5%BF%AB%E6%8D%B7%E6%93%8D%E4%BD%9C%5DMouseTweaks-2.14-mc1.16.2.jar.sig"
+    },
+    {
+        "name": "[Client][拼音搜索]JustEnoughCharacters-1.16.4-4.3.1.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5B%E6%8B%BC%E9%9F%B3%E6%90%9C%E7%B4%A2%5DJustEnoughCharacters-1.16.4-4.3.1.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BClient%5D%5B%E6%8B%BC%E9%9F%B3%E6%90%9C%E7%B4%A2%5DJustEnoughCharacters-1.16.4-4.3.1.jar.sig"
+    },
+    {
+        "name": "[Client][饰品栏鞘翅栏]curiouselytra-forge-1.16.5-4.0.2.3.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_24/%5BClient%5D%5B%E9%A5%B0%E5%93%81%E6%A0%8F%E9%9E%98%E7%BF%85%E6%A0%8F%5Dcuriouselytra-forge-1.16.5-4.0.2.3.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_24/%5BClient%5D%5B%E9%A5%B0%E5%93%81%E6%A0%8F%E9%9E%98%E7%BF%85%E6%A0%8F%5Dcuriouselytra-forge-1.16.5-4.0.2.3.jar.sig"
+    },
+
+
+    {
+        "name": "[Fix][改进合成冲突]polymorph-forge-1.16.5-0.25.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E6%94%B9%E8%BF%9B%E5%90%88%E6%88%90%E5%86%B2%E7%AA%81%5Dpolymorph-forge-1.16.5-0.25.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E6%94%B9%E8%BF%9B%E5%90%88%E6%88%90%E5%86%B2%E7%AA%81%5Dpolymorph-forge-1.16.5-0.25.jar.sig"
+    },
+    {
+        "name": "[Fix][工作台代码优化]FastWorkbench-1.16.4-4.5.1.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E5%B7%A5%E4%BD%9C%E5%8F%B0%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96%5DFastWorkbench-1.16.4-4.5.1.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E5%B7%A5%E4%BD%9C%E5%8F%B0%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96%5DFastWorkbench-1.16.4-4.5.1.jar.sig"
+    },
+    {
+        "name": "[Fix][合成配方代码优化]FastSuite-1.16.4-1.1.0.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E5%90%88%E6%88%90%E9%85%8D%E6%96%B9%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96%5DFastSuite-1.16.4-1.1.0.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E5%90%88%E6%88%90%E9%85%8D%E6%96%B9%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96%5DFastSuite-1.16.4-1.1.0.jar.sig"
+    },
+    {
+        "name": "[Fix][熔炉代码优化]FastFurnace-1.16.4-4.4.0.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E7%86%94%E7%82%89%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96%5DFastFurnace-1.16.4-4.4.0.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E7%86%94%E7%82%89%E4%BB%A3%E7%A0%81%E4%BC%98%E5%8C%96%5DFastFurnace-1.16.4-4.4.0.jar.sig"
+    },
+
+
+    {
+        "name": "[Fix][生物群系修复]chocolate-1.3.0-1.16.4.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E7%94%9F%E7%89%A9%E7%BE%A4%E7%B3%BB%E4%BF%AE%E5%A4%8D%5Dchocolate-1.3.0-1.16.4.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E7%94%9F%E7%89%A9%E7%BE%A4%E7%B3%BB%E4%BF%AE%E5%A4%8D%5Dchocolate-1.3.0-1.16.4.jar.sig"
+    },
+    {
+        "name": "[Fix][随缘修复]randompatches-2.4.4-forge.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E9%9A%8F%E7%BC%98%E4%BF%AE%E5%A4%8D%5Drandompatches-2.4.4-forge.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BFix%5D%5B%E9%9A%8F%E7%BC%98%E4%BF%AE%E5%A4%8D%5Drandompatches-2.4.4-forge.jar.sig"
+    },
+
+
+    {
+        "name": "[Graph][GUI]catalogue-1.3.0-1.16.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5BGUI%5Dcatalogue-1.3.0-1.16.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5BGUI%5Dcatalogue-1.3.0-1.16.5.jar.sig"
+    },
+    {
+        "name": "[Graph][GUI]configured-1.1.0-1.16.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5BGUI%5Dconfigured-1.1.0-1.16.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5BGUI%5Dconfigured-1.1.0-1.16.5.jar.sig"
+    },
+    {
+        "name": "[Graph][GUI]fancymenu_2.1.2-1_MC_1.16.2-1.16.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5BGUI%5Dfancymenu_2.1.2-1_MC_1.16.2-1.16.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5BGUI%5Dfancymenu_2.1.2-1_MC_1.16.2-1.16.5.jar.sig"
+    },
+    {
+        "name": "[Graph][创世神标记]WorldEdit-CUI-FE3-1.16.5-3.0.9.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5B%E5%88%9B%E4%B8%96%E7%A5%9E%E6%A0%87%E8%AE%B0%5DWorldEdit-CUI-FE3-1.16.5-3.0.9.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5B%E5%88%9B%E4%B8%96%E7%A5%9E%E6%A0%87%E8%AE%B0%5DWorldEdit-CUI-FE3-1.16.5-3.0.9.jar.sig"
+    },
+    {
+        "name": "[Graph][区块动画]ChunkAnimator-1.16.5-1.2.3.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5B%E5%8C%BA%E5%9D%97%E5%8A%A8%E7%94%BB%5DChunkAnimator-1.16.5-1.2.3.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5B%E5%8C%BA%E5%9D%97%E5%8A%A8%E7%94%BB%5DChunkAnimator-1.16.5-1.2.3.jar.sig"
+    },
+    {
+        "name": "[Graph][详细信息指向]Jade-1.16.4-2.7.2.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5B%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF%E6%8C%87%E5%90%91%5DJade-1.16.4-2.7.2.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BGraph%5D%5B%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF%E6%8C%87%E5%90%91%5DJade-1.16.4-2.7.2.jar.sig"
+    },
+    {
+        "name": "[Hyper][GC回收]ferritecore-2.0.5-forge.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BHyper%5D%5BGC%E5%9B%9E%E6%94%B6%5Dferritecore-2.0.5-forge.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BHyper%5D%5BGC%E5%9B%9E%E6%94%B6%5Dferritecore-2.0.5-forge.jar.sig"
+    },
+    
+
+    {
+        "name": "[L][abnormals和农夫乐事Hook]abnormals_delight-1.16.5-1.1.1.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5Babnormals%E5%92%8C%E5%86%9C%E5%A4%AB%E4%B9%90%E4%BA%8BHook%5Dabnormals_delight-1.16.5-1.1.1.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5Babnormals%E5%92%8C%E5%86%9C%E5%A4%AB%E4%B9%90%E4%BA%8BHook%5Dabnormals_delight-1.16.5-1.1.1.jar.sig"
+    },
+    {
+        "name": "[L][abnormals系列前置]abnormals_core-1.16.5-3.2.0.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5Babnormals%E7%B3%BB%E5%88%97%E5%89%8D%E7%BD%AE%5Dabnormals_core-1.16.5-3.2.0.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5Babnormals%E7%B3%BB%E5%88%97%E5%89%8D%E7%BD%AE%5Dabnormals_core-1.16.5-3.2.0.jar.sig"
+    },
+    {
+        "name": "[L][Fabric注解调用]architectury-1.20.28-forge.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5BFabric%E6%B3%A8%E8%A7%A3%E8%B0%83%E7%94%A8%5Darchitectury-1.20.28-forge.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5BFabric%E6%B3%A8%E8%A7%A3%E8%B0%83%E7%94%A8%5Darchitectury-1.20.28-forge.jar.sig"
+    },
+    {
+        "name": "[L][Graph][前置]konkrete_1.1.6_MC_1.16.2-1.16.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5BGraph%5D%5B%E5%89%8D%E7%BD%AE%5Dkonkrete_1.1.6_MC_1.16.2-1.16.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5BGraph%5D%5B%E5%89%8D%E7%BD%AE%5Dkonkrete_1.1.6_MC_1.16.2-1.16.5.jar.sig"
+    },
+    {
+        "name": "[L][GUI类库]ftb-gui-library-1605.2.1.41-forge.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5BGUI%E7%B1%BB%E5%BA%93%5Dftb-gui-library-1605.2.1.41-forge.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5BGUI%E7%B1%BB%E5%BA%93%5Dftb-gui-library-1605.2.1.41-forge.jar.sig"
+    },
+    {
+        "name": "[L][Kotlin支持]kotlinforforge-1.12.2-obf.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5BKotlin%E6%94%AF%E6%8C%81%5Dkotlinforforge-1.12.2-obf.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5BKotlin%E6%94%AF%E6%8C%81%5Dkotlinforforge-1.12.2-obf.jar.sig"
+    },
+    {
+        "name": "[L][YUNG前置]YungsApi-1.16.4-Forge-12.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5BYUNG%E5%89%8D%E7%BD%AE%5DYungsApi-1.16.4-Forge-12.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5BYUNG%E5%89%8D%E7%BD%AE%5DYungsApi-1.16.4-Forge-12.jar.sig"
+    },
+    {
+        "name": "[L][冰与火之歌以及爱丽丝前置]citadel-1.7.1-1.16.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E5%86%B0%E4%B8%8E%E7%81%AB%E4%B9%8B%E6%AD%8C%E4%BB%A5%E5%8F%8A%E7%88%B1%E4%B8%BD%E4%B8%9D%E5%89%8D%E7%BD%AE%5Dcitadel-1.7.1-1.16.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E5%86%B0%E4%B8%8E%E7%81%AB%E4%B9%8B%E6%AD%8C%E4%BB%A5%E5%8F%8A%E7%88%B1%E4%B8%BD%E4%B8%9D%E5%89%8D%E7%BD%AE%5Dcitadel-1.7.1-1.16.5.jar.sig"
+    },
+    {
+        "name": "[L][动态环绕GUI库]cloth-config-4.11.26-forge.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E5%8A%A8%E6%80%81%E7%8E%AF%E7%BB%95GUI%E5%BA%93%5Dcloth-config-4.11.26-forge.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E5%8A%A8%E6%80%81%E7%8E%AF%E7%BB%95GUI%E5%BA%93%5Dcloth-config-4.11.26-forge.jar.sig"
+    },
+    {
+        "name": "[L][更多床前置]shetiphiancore-1.16-3.8.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E6%9B%B4%E5%A4%9A%E5%BA%8A%E5%89%8D%E7%BD%AE%5Dshetiphiancore-1.16-3.8.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E6%9B%B4%E5%A4%9A%E5%BA%8A%E5%89%8D%E7%BD%AE%5Dshetiphiancore-1.16-3.8.5.jar.sig"
+    },
+    {
+        "name": "[L][夸克前置]AutoRegLib-1.6-49.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E5%A4%B8%E5%85%8B%E5%89%8D%E7%BD%AE%5DAutoRegLib-1.6-49.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E5%A4%B8%E5%85%8B%E5%89%8D%E7%BD%AE%5DAutoRegLib-1.6-49.jar.sig"
+    },
+    {
+        "name": "[L][现代高速代码前置]Placebo-1.16.4-4.5.0.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BL%5D%5B%E7%8E%B0%E4%BB%A3%E9%AB%98%E9%80%9F%E4%BB%A3%E7%A0%81%E5%89%8D%E7%BD%AE%5DPlacebo-1.16.4-4.5.0.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BL%5D%5B%E7%8E%B0%E4%BB%A3%E9%AB%98%E9%80%9F%E4%BB%A3%E7%A0%81%E5%89%8D%E7%BD%AE%5DPlacebo-1.16.4-4.5.0.jar.sig"
+    },
+    {
+        "name": "[L][快速启动]smoothboot-forge-1.16.4-1.2.2.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8%5Dsmoothboot-forge-1.16.4-1.2.2.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8%5Dsmoothboot-forge-1.16.4-1.2.2.jar.sig"
+    },
+    {
+        "name": "[L][帕秋莉手册]Patchouli-1.16.4-53.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E5%B8%95%E7%A7%8B%E8%8E%89%E6%89%8B%E5%86%8C%5DPatchouli-1.16.4-53.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E5%B8%95%E7%A7%8B%E8%8E%89%E6%89%8B%E5%86%8C%5DPatchouli-1.16.4-53.jar.sig"
+    },
+    {
+        "name": "[L][摄影镜头前置]CreativeCore_v2.2.0_mc1.16.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E6%91%84%E5%BD%B1%E9%95%9C%E5%A4%B4%E5%89%8D%E7%BD%AE%5DCreativeCore_v2.2.0_mc1.16.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E6%91%84%E5%BD%B1%E9%95%9C%E5%A4%B4%E5%89%8D%E7%BD%AE%5DCreativeCore_v2.2.0_mc1.16.5.jar.sig"
+    },
+    {
+        "name": "[L][生物群系ID识别修复]biomeidfixer-1.16.5-1.0.1.s4.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E7%94%9F%E7%89%A9%E7%BE%A4%E7%B3%BBID%E8%AF%86%E5%88%AB%E4%BF%AE%E5%A4%8D%5Dbiomeidfixer-1.16.5-1.0.1.s4.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E7%94%9F%E7%89%A9%E7%BE%A4%E7%B3%BBID%E8%AF%86%E5%88%AB%E4%BF%AE%E5%A4%8D%5Dbiomeidfixer-1.16.5-1.0.1.s4.jar.sig"
+    },
+
+    {
+        "name": "[L][饰品栏]curios-forge-1.16.5-4.0.5.2.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E9%A5%B0%E5%93%81%E6%A0%8F%5Dcurios-forge-1.16.5-4.0.5.2.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E9%A5%B0%E5%93%81%E6%A0%8F%5Dcurios-forge-1.16.5-4.0.5.2.jar.sig"
+    },
+    {
+        "name": "[L][饰品栏前置]caelus-forge-1.16.5-2.1.3.0.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E9%A5%B0%E5%93%81%E6%A0%8F%E5%89%8D%E7%BD%AE%5Dcaelus-forge-1.16.5-2.1.3.0.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E9%A5%B0%E5%93%81%E6%A0%8F%E5%89%8D%E7%BD%AE%5Dcaelus-forge-1.16.5-2.1.3.0.jar.sig"
+    },
+    {
+        "name": "[L][书虫]Bookshelf-1.16.5-10.2.15.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E4%B9%A6%E8%99%AB%5DBookshelf-1.16.5-10.2.15.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E4%B9%A6%E8%99%AB%5DBookshelf-1.16.5-10.2.15.jar.sig"
+    },
+    {
+        "name": "[L][现代化渲染引擎]flywheel-1.16-0.2.3.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E7%8E%B0%E4%BB%A3%E5%8C%96%E6%B8%B2%E6%9F%93%E5%BC%95%E6%93%8E%5Dflywheel-1.16-0.2.3.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BL%5D%5B%E7%8E%B0%E4%BB%A3%E5%8C%96%E6%B8%B2%E6%9F%93%E5%BC%95%E6%93%8E%5Dflywheel-1.16-0.2.3.jar.sig"
+    },
+    {
+        "name": "[L][实用扩充前置]selene-1.16.5-1.6.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BL%5D%5B%E5%AE%9E%E7%94%A8%E6%89%A9%E5%85%85%E5%89%8D%E7%BD%AE%5Dselene-1.16.5-1.6.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BL%5D%5B%E5%AE%9E%E7%94%A8%E6%89%A9%E5%85%85%E5%89%8D%E7%BD%AE%5Dselene-1.16.5-1.6.jar.sig"
+    },
+
+
+    {
+        "name": "[Logic][机械动力]create-mc1.16.5_v0.3.2d.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9B%5Dcreate-mc1.16.5_v0.3.2d.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9B%5Dcreate-mc1.16.5_v0.3.2d.jar.sig"
+    },
+    {
+        "name": "[Logic][机械动力扩展]createaddition-1.16.5-20210911a.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLogic%5D%5B%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9B%E6%89%A9%E5%B1%95%5Dcreateaddition-1.16.5-20210911a.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLogic%5D%5B%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9B%E6%89%A9%E5%B1%95%5Dcreateaddition-1.16.5-20210911a.jar.sig"
+    },
+    {
+        "name": "[Logic][家具]cfm-7.0.0pre22-1.16.3.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%AE%B6%E5%85%B7%5Dcfm-7.0.0pre22-1.16.3.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%AE%B6%E5%85%B7%5Dcfm-7.0.0pre22-1.16.3.jar.sig"
+    },
+    {
+        "name": "[Logic][储物抽屉]StorageDrawers-1.16.3-8.3.0.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%82%A8%E7%89%A9%E6%8A%BD%E5%B1%89%5DStorageDrawers-1.16.3-8.3.0.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%82%A8%E7%89%A9%E6%8A%BD%E5%B1%89%5DStorageDrawers-1.16.3-8.3.0.jar.sig"
+    },
+    {
+        "name": "[Logic][传送石碑]Waystones_1.16.5-7.6.3.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLogic%5D%5B%E4%BC%A0%E9%80%81%E7%9F%B3%E7%A2%91%5DWaystones_1.16.5-7.6.3.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLogic%5D%5B%E4%BC%A0%E9%80%81%E7%9F%B3%E7%A2%91%5DWaystones_1.16.5-7.6.3.jar.sig"
+    },
+    {
+        "name": "[Logic][地牢浮现之时]DungeonsArise-1.16.5-2.1.47-release.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%9C%B0%E7%89%A2%E6%B5%AE%E7%8E%B0%E4%B9%8B%E6%97%B6%5DDungeonsArise-1.16.5-2.1.47-release.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%9C%B0%E7%89%A2%E6%B5%AE%E7%8E%B0%E4%B9%8B%E6%97%B6%5DDungeonsArise-1.16.5-2.1.47-release.jar.sig"
+    },
+    {
+        "name": "[Logic][更多生物群系]BiomesOPlenty-1.16.5-13.1.0.482-universal.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9B%B4%E5%A4%9A%E7%94%9F%E7%89%A9%E7%BE%A4%E7%B3%BB%5DBiomesOPlenty-1.16.5-13.1.0.482-universal.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9B%B4%E5%A4%9A%E7%94%9F%E7%89%A9%E7%BE%A4%E7%B3%BB%5DBiomesOPlenty-1.16.5-13.1.0.482-universal.jar.sig"
+    },
+    {
+        "name": "[Logic][更好的洞穴]BetterCaves-Forge-1.16.4-1.1.2.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%B4%9E%E7%A9%B4%5DBetterCaves-Forge-1.16.4-1.1.2.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%B4%9E%E7%A9%B4%5DBetterCaves-Forge-1.16.4-1.1.2.jar.sig"
+    },
+    {
+        "name": "[Logic][更好的矿井]BetterMineshafts-Forge-1.16.4-2.0.4.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9B%B4%E5%A5%BD%E7%9A%84%E7%9F%BF%E4%BA%95%5DBetterMineshafts-Forge-1.16.4-2.0.4.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9B%B4%E5%A5%BD%E7%9A%84%E7%9F%BF%E4%BA%95%5DBetterMineshafts-Forge-1.16.4-2.0.4.jar.sig"
+    },
+    {
+        "name": "[Logic][更好的末地]betterendforge-1.16.5-1.6.3.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLogic%5D%5B%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%9C%AB%E5%9C%B0%5Dbetterendforge-1.16.5-1.6.3.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLogic%5D%5B%E6%9B%B4%E5%A5%BD%E7%9A%84%E6%9C%AB%E5%9C%B0%5Dbetterendforge-1.16.5-1.6.3.jar.sig"
+    },
+    {
+        "name": "[Logic][更好的要塞]BetterStrongholds-1.16.4-1.2.1.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9B%B4%E5%A5%BD%E7%9A%84%E8%A6%81%E5%A1%9E%5DBetterStrongholds-1.16.4-1.2.1.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9B%B4%E5%A5%BD%E7%9A%84%E8%A6%81%E5%A1%9E%5DBetterStrongholds-1.16.4-1.2.1.jar.sig"
+    },
+    {
+        "name": "[Logic][结构扩展]repurposed_structures_forge-3.0.2-1.16.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E7%BB%93%E6%9E%84%E6%89%A9%E5%B1%95%5Drepurposed_structures_forge-3.0.2-1.16.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E7%BB%93%E6%9E%84%E6%89%A9%E5%B1%95%5Drepurposed_structures_forge-3.0.2-1.16.5.jar.sig"
+    },
+    {
+        "name": "[Logic][夸克]Quark-r2.4-316.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%A4%B8%E5%85%8B%5DQuark-r2.4-316.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%A4%B8%E5%85%8B%5DQuark-r2.4-316.jar.sig"
+    },
+    {
+        "name": "[Logic][旷野塔]towers_of_the_wild-1.16.4-2.0.1.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%97%B7%E9%87%8E%E5%A1%94%5Dtowers_of_the_wild-1.16.4-2.0.1.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%97%B7%E9%87%8E%E5%A1%94%5Dtowers_of_the_wild-1.16.4-2.0.1.jar.sig"
+    },
+    {
+        "name": "[Logic][扩展动物]alexsmobs-1.11.1.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%89%A9%E5%B1%95%E5%8A%A8%E7%89%A9%5Dalexsmobs-1.11.1.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%89%A9%E5%B1%95%E5%8A%A8%E7%89%A9%5Dalexsmobs-1.11.1.jar.sig"
+    },
+    {
+        "name": "[Logic][农夫趣事]FarmersDelight-1.16.5-0.4.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%86%9C%E5%A4%AB%E8%B6%A3%E4%BA%8B%5DFarmersDelight-1.16.5-0.4.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%86%9C%E5%A4%AB%E8%B6%A3%E4%BA%8B%5DFarmersDelight-1.16.5-0.4.5.jar.sig"
+    },
+    {
+        "name": "[Logic][农夫趣事-部分模组扩展]farmersdelightintegrations-1.16.5-1.1.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%86%9C%E5%A4%AB%E8%B6%A3%E4%BA%8B-%E9%83%A8%E5%88%86%E6%A8%A1%E7%BB%84%E6%89%A9%E5%B1%95%5Dfarmersdelightintegrations-1.16.5-1.1.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%86%9C%E5%A4%AB%E8%B6%A3%E4%BA%8B-%E9%83%A8%E5%88%86%E6%A8%A1%E7%BB%84%E6%89%A9%E5%B1%95%5Dfarmersdelightintegrations-1.16.5-1.1.jar.sig"
+    },
+    {
+        "name": "[Logic][农夫趣事-智慧村民]farmersreplant-1.16.5-1.0.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%86%9C%E5%A4%AB%E8%B6%A3%E4%BA%8B-%E6%99%BA%E6%85%A7%E6%9D%91%E6%B0%91%5Dfarmersreplant-1.16.5-1.0.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%86%9C%E5%A4%AB%E8%B6%A3%E4%BA%8B-%E6%99%BA%E6%85%A7%E6%9D%91%E6%B0%91%5Dfarmersreplant-1.16.5-1.0.jar.sig"
+    },
+    {
+        "name": "[Logic][塞尔达滑翔伞]Paraglider-1.16.5-1.3.2.1.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%A1%9E%E5%B0%94%E8%BE%BE%E6%BB%91%E7%BF%94%E4%BC%9E%5DParaglider-1.16.5-1.3.2.1.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%A1%9E%E5%B0%94%E8%BE%BE%E6%BB%91%E7%BF%94%E4%BC%9E%5DParaglider-1.16.5-1.3.2.1.jar.sig"
+    },
+    {
+        "name": "[Logic][照相机]camera-1.16.5-1.0.14.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E7%85%A7%E7%9B%B8%E6%9C%BA%5Dcamera-1.16.5-1.0.14.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E7%85%A7%E7%9B%B8%E6%9C%BA%5Dcamera-1.16.5-1.0.14.jar.sig"
+    },
+    {
+        "name": "[Logic][珍奇鸟类]exoticbirds-1.16.4-1.1.0.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E7%8F%8D%E5%A5%87%E9%B8%9F%E7%B1%BB%5Dexoticbirds-1.16.4-1.1.0.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E7%8F%8D%E5%A5%87%E9%B8%9F%E7%B1%BB%5Dexoticbirds-1.16.4-1.1.0.jar.sig"
+    },
+    {
+        "name": "[Logic][地下村庄]stoneholm-1.2.2.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%9C%B0%E4%B8%8B%E6%9D%91%E5%BA%84%5Dstoneholm-1.2.2.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E5%9C%B0%E4%B8%8B%E6%9D%91%E5%BA%84%5Dstoneholm-1.2.2.jar.sig"
+    },
+    {
+        "name": "[Logic][钓鱼扩展]Aquaculture-1.16.5-2.1.20.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E9%92%93%E9%B1%BC%E6%89%A9%E5%B1%95%5DAquaculture-1.16.5-2.1.20.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E9%92%93%E9%B1%BC%E6%89%A9%E5%B1%95%5DAquaculture-1.16.5-2.1.20.jar.sig"
+    },
+    {
+        "name": "[Logic][更多的床]multibeds-1.16-1.7.9.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9B%B4%E5%A4%9A%E7%9A%84%E5%BA%8A%5Dmultibeds-1.16-1.7.9.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BLogic%5D%5B%E6%9B%B4%E5%A4%9A%E7%9A%84%E5%BA%8A%5Dmultibeds-1.16-1.7.9.jar.sig"
+    },
+    {
+        "name": "[Misc][Lua语言电脑]cc-tweaked-1.16.5-1.98.1.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5BLua%E8%AF%AD%E8%A8%80%E7%94%B5%E8%84%91%5Dcc-tweaked-1.16.5-1.98.1.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5BLua%E8%AF%AD%E8%A8%80%E7%94%B5%E8%84%91%5Dcc-tweaked-1.16.5-1.98.1.jar.sig"
+    },
+    {
+        "name": "[Misc][创世神]worldedit-mod-7.2.5-dist.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E5%88%9B%E4%B8%96%E7%A5%9E%5Dworldedit-mod-7.2.5-dist.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E5%88%9B%E4%B8%96%E7%A5%9E%5Dworldedit-mod-7.2.5-dist.jar.sig"
+    },
+    {
+        "name": "[Misc][基岩版放置特性]ProPlacer-v1.0-1.16.2.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E5%9F%BA%E5%B2%A9%E7%89%88%E6%94%BE%E7%BD%AE%E7%89%B9%E6%80%A7%5DProPlacer-v1.0-1.16.2.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E5%9F%BA%E5%B2%A9%E7%89%88%E6%94%BE%E7%BD%AE%E7%89%B9%E6%80%A7%5DProPlacer-v1.0-1.16.2.jar.sig"
+    },
+    {
+        "name": "[Misc][脚本]CraftTweaker-1.16.5-7.1.0.369.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E8%84%9A%E6%9C%AC%5DCraftTweaker-1.16.5-7.1.0.369.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E8%84%9A%E6%9C%AC%5DCraftTweaker-1.16.5-7.1.0.369.jar.sig"
+    },
+    {
+        "name": "[Misc][脚本-JEI扩展]JEITweaker-1.16.5-1.0.1.34.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E8%84%9A%E6%9C%AC-JEI%E6%89%A9%E5%B1%95%5DJEITweaker-1.16.5-1.0.1.34.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E8%84%9A%E6%9C%AC-JEI%E6%89%A9%E5%B1%95%5DJEITweaker-1.16.5-1.0.1.34.jar.sig"
+    },
+    {
+        "name": "[Misc][脚本-机械动力扩展]CreateTweaker-1.0.0.18.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E8%84%9A%E6%9C%AC-%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9B%E6%89%A9%E5%B1%95%5DCreateTweaker-1.0.0.18.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E8%84%9A%E6%9C%AC-%E6%9C%BA%E6%A2%B0%E5%8A%A8%E5%8A%9B%E6%89%A9%E5%B1%95%5DCreateTweaker-1.0.0.18.jar.sig"
+    },
+    {
+        "name": "[Misc][旅行地图]journeymap-1.16.5-5.7.3.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E6%97%85%E8%A1%8C%E5%9C%B0%E5%9B%BE%5Djourneymap-1.16.5-5.7.3.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E6%97%85%E8%A1%8C%E5%9C%B0%E5%9B%BE%5Djourneymap-1.16.5-5.7.3.jar.sig"
+    },
+    {
+        "name": "[Misc][摄影镜头]CMDCam_v1.5.21_mc1.16.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E6%91%84%E5%BD%B1%E9%95%9C%E5%A4%B4%5DCMDCam_v1.5.21_mc1.16.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E6%91%84%E5%BD%B1%E9%95%9C%E5%A4%B4%5DCMDCam_v1.5.21_mc1.16.5.jar.sig"
+    },
+    {
+        "name": "[Misc][无缝玻璃]windowlogging-mc1.16.3_v0.0.4.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E6%97%A0%E7%BC%9D%E7%8E%BB%E7%92%83%5Dwindowlogging-mc1.16.3_v0.0.4.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E6%97%A0%E7%BC%9D%E7%8E%BB%E7%92%83%5Dwindowlogging-mc1.16.3_v0.0.4.jar.sig"
+    },
+    {
+        "name": "[Misc][箱子矿车细节修改]chest_minecart_sound-mc1.16.5_v0.0.1.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E7%AE%B1%E5%AD%90%E7%9F%BF%E8%BD%A6%E7%BB%86%E8%8A%82%E4%BF%AE%E6%94%B9%5Dchest_minecart_sound-mc1.16.5_v0.0.1.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E7%AE%B1%E5%AD%90%E7%9F%BF%E8%BD%A6%E7%BB%86%E8%8A%82%E4%BF%AE%E6%94%B9%5Dchest_minecart_sound-mc1.16.5_v0.0.1.jar.sig"
+    },
+    {
+        "name": "[Misc][颜色鞘翅]customizableelytra-1.16.4-1.5.3.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E9%A2%9C%E8%89%B2%E9%9E%98%E7%BF%85%5Dcustomizableelytra-1.16.4-1.5.3.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E9%A2%9C%E8%89%B2%E9%9E%98%E7%BF%85%5Dcustomizableelytra-1.16.4-1.5.3.jar.sig"
+    },
+    {
+        "name": "[Misc][自然音效]AmbientSounds_v3.1.9_mc1.16.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E8%87%AA%E7%84%B6%E9%9F%B3%E6%95%88%5DAmbientSounds_v3.1.9_mc1.16.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods_sig/%5BMisc%5D%5B%E8%87%AA%E7%84%B6%E9%9F%B3%E6%95%88%5DAmbientSounds_v3.1.9_mc1.16.5.jar.sig"
+    },
+    
+    // Update in 2021/08/14
+
+    {
+        "name": "[Logic][XK装饰]xkdeco_0.2.4.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BLogic%5D%5BXK%E8%A3%85%E9%A5%B0%5Dxkdeco_0.2.4.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BLogic%5D%5BXK%E8%A3%85%E9%A5%B0%5Dxkdeco_0.2.4.jar.sig"
+    },
+    {
+        "name": "[Logic][水源]WaterSoucre-1.1.24b2-beta-1.16.5.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BLogic%5D%5B%E6%B0%B4%E6%BA%90%5DWaterSoucre-1.1.24b2-beta-1.16.5.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BLogic%5D%5B%E6%B0%B4%E6%BA%90%5DWaterSoucre-1.1.24b2-beta-1.16.5.jar.sig"
+    },
+
+    {
+        "name": "[Logic][茶]TeaStory-4.1.12-Alpha-17.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BLogic%5D%5B%E8%8C%B6%5DTeaStory-4.1.12-Alpha-17.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BLogic%5D%5B%E8%8C%B6%5DTeaStory-4.1.12-Alpha-17.jar.sig"
+    },
+
+    {
+        "name": "[Logic][车万女仆]touhoulittlemaid-1.16.5-1.0.0-13.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BLogic%5D%5B%E8%BD%A6%E4%B8%87%E5%A5%B3%E4%BB%86%5Dtouhoulittlemaid-1.16.5-1.0.0-13.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BLogic%5D%5B%E8%BD%A6%E4%B8%87%E5%A5%B3%E4%BB%86%5Dtouhoulittlemaid-1.16.5-1.0.0-13.jar.sig"
+    },
+    {
+        "name": "[Logic][邮箱]Contact-Forge-1.16.5-0.2.4-Beta.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BLogic%5D%5B%E9%82%AE%E7%AE%B1%5DContact-Forge-1.16.5-0.2.4-Beta.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BLogic%5D%5B%E9%82%AE%E7%AE%B1%5DContact-Forge-1.16.5-0.2.4-Beta.jar.sig"
+    },
+    {
+        "name": "[L][数学库]mmlib-1.0.2.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BL%5D%5B%E6%95%B0%E5%AD%A6%E5%BA%93%5Dmmlib-1.0.2.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BL%5D%5B%E6%95%B0%E5%AD%A6%E5%BA%93%5Dmmlib-1.0.2.jar.sig"
+    },
+    {
+        "name": "[L][茶前置]SilveroakOutpost-Forge-1.16.5-0.3.6-Beta.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BL%5D%5B%E8%8C%B6%E5%89%8D%E7%BD%AE%5DSilveroakOutpost-Forge-1.16.5-0.3.6-Beta.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_14/%5BL%5D%5B%E8%8C%B6%E5%89%8D%E7%BD%AE%5DSilveroakOutpost-Forge-1.16.5-0.3.6-Beta.jar.sig"
+    },
+
+
+    // update TerraForged on 2021/08/16
+
+    {
+        "name": "[Logic][地形生成]TerraForged-1.16.5-0.2.15.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLogic%5D%5B%E5%9C%B0%E5%BD%A2%E7%94%9F%E6%88%90%5DTerraForged-1.16.5-0.2.15.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLogic%5D%5B%E5%9C%B0%E5%BD%A2%E7%94%9F%E6%88%90%5DTerraForged-1.16.5-0.2.15.jar.sig"
+    },
+
+    // update simplefarming on 2021/08/19
+
+    {
+        "name": "[Logic][简单农业]simplefarming-1.16.5-1.3.8.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_19/%5BLogic%5D%5B%E7%AE%80%E5%8D%95%E5%86%9C%E4%B8%9A%5Dsimplefarming-1.16.5-1.3.8.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_08_19/%5BLogic%5D%5B%E7%AE%80%E5%8D%95%E5%86%9C%E4%B8%9A%5Dsimplefarming-1.16.5-1.3.8.jar.sig"
+    },
+
+    // update sth on 2021/09/09
+
+    {
+        "name": "[Logic][洞穴地形扩展]subwild-1.3.0.jar",
+        "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_09/%5BLogic%5D%5B%E6%B4%9E%E7%A9%B4%E5%9C%B0%E5%BD%A2%E6%89%A9%E5%B1%95%5Dsubwild-1.3.0.jar",
+        "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_09/%5BLogic%5D%5B%E6%B4%9E%E7%A9%B4%E5%9C%B0%E5%BD%A2%E6%89%A9%E5%B1%95%5Dsubwild-1.3.0.jar.sig"
+    },
+
+    // Chinjufu removed on 2021/09/28
+    // {
+    //     "name": "[Logic][镇守府]ChinjufuMod[1.16.5]6.0.1.jar",
+    //     "file": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_09/%5BLogic%5D%5B%E9%95%87%E5%AE%88%E5%BA%9C%5DChinjufuMod%5B1.16.5%5D6.0.1.jar",
+    //     "sig": "http://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_09/%5BLogic%5D%5B%E9%95%87%E5%AE%88%E5%BA%9C%5DChinjufuMod%5B1.16.5%5D6.0.1.jar.sig"
+    // },
+
+    // update TC and game additions on 2021/09/22
+
+    {
+        "name": "[Logic][匠魂]TConstruct-1.16.5-3.1.2.265.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLogic%5D%5B%E5%8C%A0%E9%AD%82%5DTConstruct-1.16.5-3.1.2.265.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLogic%5D%5B%E5%8C%A0%E9%AD%82%5DTConstruct-1.16.5-3.1.2.265.jar.sig"
+    },
+    {
+        "name": "[Misc][F3界面]BetterF3-1.1.3-forge-1.16.5.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BMisc%5D%5BF3%E7%95%8C%E9%9D%A2%5DBetterF3-1.1.3-forge-1.16.5.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BMisc%5D%5BF3%E7%95%8C%E9%9D%A2%5DBetterF3-1.1.3-forge-1.16.5.jar.sig"
+    },
+    {
+        "name": "[Misc][内建输入法]IngameIME-forge-1.16.5-1.6.3.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BMisc%5D%5B%E5%86%85%E5%BB%BA%E8%BE%93%E5%85%A5%E6%B3%95%5DIngameIME-forge-1.16.5-1.6.3.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BMisc%5D%5B%E5%86%85%E5%BB%BA%E8%BE%93%E5%85%A5%E6%B3%95%5DIngameIME-forge-1.16.5-1.6.3.jar.sig"
+    },
+    {
+        "name": "[Misc][高级崩溃界面]notenoughcrashes-3.2.0-forge.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BMisc%5D%5B%E9%AB%98%E7%BA%A7%E5%B4%A9%E6%BA%83%E7%95%8C%E9%9D%A2%5Dnotenoughcrashes-3.2.0-forge.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BMisc%5D%5B%E9%AB%98%E7%BA%A7%E5%B4%A9%E6%BA%83%E7%95%8C%E9%9D%A2%5Dnotenoughcrashes-3.2.0-forge.jar.sig"
+    },
+    {
+        "name": "[Misc][热登录]ReAuth-1.16-Forge-3.9.3.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BMisc%5D%5B%E7%83%AD%E7%99%BB%E5%BD%95%5DReAuth-1.16-Forge-3.9.3.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BMisc%5D%5B%E7%83%AD%E7%99%BB%E5%BD%95%5DReAuth-1.16-Forge-3.9.3.jar.sig"
+    },
+    {
+        "name": "[Lib][匠魂等前置]Mantle-1.16.5-1.6.123.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLib%5D%5B%E5%8C%A0%E9%AD%82%E7%AD%89%E5%89%8D%E7%BD%AE%5DMantle-1.16.5-1.6.123.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_22/%5BLib%5D%5B%E5%8C%A0%E9%AD%82%E7%AD%89%E5%89%8D%E7%BD%AE%5DMantle-1.16.5-1.6.123.jar.sig"
+    },
+    
+    // update performant and simplefarm to farmerdelights hook on 2021/09/23
+    
+    {
+        "name": "[Fix][性能优化]performant-1.16.2-5-3.72m.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_24/%5BFix%5D%5B%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%5Dperformant-1.16.2-5-3.72m.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_24/%5BFix%5D%5B%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%5Dperformant-1.16.2-5-3.72m.jar.sig"
+    },
+    {
+        "name": "[L][简单农业和农夫乐事Hook]simpledelights-1.1.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_24/%5BL%5D%5B%E7%AE%80%E5%8D%95%E5%86%9C%E4%B8%9A%E5%92%8C%E5%86%9C%E5%A4%AB%E4%B9%90%E4%BA%8BHook%5Dsimpledelights-1.1.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_24/%5BL%5D%5B%E7%AE%80%E5%8D%95%E5%86%9C%E4%B8%9A%E5%92%8C%E5%86%9C%E5%A4%AB%E4%B9%90%E4%BA%8BHook%5Dsimpledelights-1.1.jar.sig"
+    },
+
+    // update quarks oddities on 2021/09/26
+
+    {
+        "name": "[Logic][夸克扩展]QuarkOddities-1.16.3.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_26/%5BLogic%5D%5B%E5%A4%B8%E5%85%8B%E6%89%A9%E5%B1%95%5DQuarkOddities-1.16.3.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_26/%5BLogic%5D%5B%E5%A4%B8%E5%85%8B%E6%89%A9%E5%B1%95%5DQuarkOddities-1.16.3.jar.sig"
+    },
+
+    // add chisels&bits on 2021/09/27
+
+    {
+        "name": "[Logic][雕刻工艺]chiselsandbits-1.0.7-BETA-universal.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_27/%5BLogic%5D%5B%E9%9B%95%E5%88%BB%E5%B7%A5%E8%89%BA%5Dchiselsandbits-1.0.7-BETA-universal.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_27/%5BLogic%5D%5B%E9%9B%95%E5%88%BB%E5%B7%A5%E8%89%BA%5Dchiselsandbits-1.0.7-BETA-universal.jar.sig"
+    },
+
+    // add betternether on 2021/09/28
+
+    {
+        "name": "[Logic][更好的地狱]BetterNether_Reforged-1.0.1.jar",
+        "file": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_28/%5BLogic%5D%5B%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%9C%B0%E7%8B%B1%5DBetterNether_Reforged-1.0.1.jar",
+        "sig": "https://remotesync-botwmcs.oss-cn-shanghai.aliyuncs.com/dev-patch6-mods/mods-update-2021_09_28/%5BLogic%5D%5B%E6%9B%B4%E5%A5%BD%E7%9A%84%E5%9C%B0%E7%8B%B1%5DBetterNether_Reforged-1.0.1.jar.sig"
+    }
+
+
+
+  ]
