@@ -1,2 +1,24 @@
 # BotWMCS
-BotW Minecraft Server 服务端与客户端使用说明与问题反馈 | BotW Minecraft Server Server&amp;Client Usage guide and issues report
+BotW Minecraft Server 服务端与客户端使用说明与问题反馈
+
+BotW Minecraft Server Server&amp;Client Usage guide and issues report
+
+### 更新日志
+
+##### DEV Patch 6 Update 4.00:
+
+- 更换新存档
+- 更新地牢浮现模组版本
+- 添加 FTB 任务系列模组
+- 添加扩展模组（如使用口哨呼叫自己的马、从地上捡起的物品会在背包高亮、进入生物群系时发送Title、吊坠锁链、可分批破坏的台阶、可在台阶上插火把、可搭配不同组合的半砖、附魔书提示与JEI扩展）
+- 更快的游戏启动速度
+- 添加农夫乐事扩展：下界乐事
+- 汉化地牢浮现成就与挑战
+- 添加部分数据包以此支持扩展结构模组
+- 修改部分村庄的结构
+- 添加 TIps 系统，现可在哟西加载时查看一些实用的提示
+- 添加火把大师模组
+- 添加适用于多人游戏的聊天气泡与部分动作的动画
+- 修改游戏主界面背景图
+- 添加珍奇鸟类、地牢浮现等多种模组的语言文件
+- 拟定制作任务系统与新手引导功能
